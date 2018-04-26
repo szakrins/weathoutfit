@@ -1765,7 +1765,7 @@ body {
   background-image: url("../../../assets/images/mbr-5-720x1080.jpg");
 }
 .cid-qP2qIppj2h .mbr-section-subtitle {
-  color: #232323;
+  color: #ffffff;
   text-align: center;
   font-weight: 300;
 }
@@ -1849,6 +1849,9 @@ body {
 .cid-qP2qIppj2h .mbr-timeline-title {
   text-align: center;
   color: #149dcc;
+}
+.cid-qP2qIppj2h .mbr-section-title {
+  color: #ffffff;
 }
 .cid-qQhz7HfJwB {
   padding-top: 90px;
@@ -2054,9 +2057,45 @@ body {
     display: block;
   }
 }
+.cid-qQhyOYJWb4 {
+  padding-top: 105px;
+  padding-bottom: 60px;
+  background-color: #efefef;
+}
+.cid-qQhyOYJWb4 .counter-container {
+  color: #767676;
+}
+.cid-qQhyOYJWb4 .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+.cid-qQhyOYJWb4 .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-qQhyOYJWb4 .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+}
+.cid-qQhyOYJWb4 .counter-container ol li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #55b4d4;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 .cid-qQhz4eiQjW {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-image: url("../../../assets/images/mbr-12-720x1080.jpg");
 }
 .cid-qQhz4eiQjW .socicon-bg-facebook {
@@ -2098,40 +2137,4 @@ body {
   .cid-qQhz4eiQjW .btn {
     font-size: 20px !important;
   }
-}
-.cid-qQhyOYJWb4 {
-  padding-top: 105px;
-  padding-bottom: 60px;
-  background-color: #efefef;
-}
-.cid-qQhyOYJWb4 .counter-container {
-  color: #767676;
-}
-.cid-qQhyOYJWb4 .counter-container ol {
-  margin-bottom: 0;
-  counter-reset: myCounter;
-}
-.cid-qQhyOYJWb4 .counter-container ol li {
-  margin-bottom: 1rem;
-}
-.cid-qQhyOYJWb4 .counter-container ol li {
-  list-style: none;
-  padding-left: .5rem;
-}
-.cid-qQhyOYJWb4 .counter-container ol li:before {
-  position: absolute;
-  left: 0px;
-  margin-top: -10px;
-  counter-increment: myCounter;
-  content: counter(myCounter);
-  display: inline-block;
-  text-align: center;
-  margin: 5px 10px;
-  line-height: 40px;
-  transition: all .2s;
-  color: #ffffff;
-  background: #55b4d4;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
 }
